@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A81F33BF18F4E44B003180BC /* fuwu-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33A518F4E44B003180BC /* fuwu-01.png */; };
+		A81F33C018F4E44B003180BC /* huiyuanka1-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33A618F4E44B003180BC /* huiyuanka1-01.png */; };
+		A81F33C118F4E44B003180BC /* huiyuanka2-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33A718F4E44B003180BC /* huiyuanka2-01.png */; };
+		A81F33C218F4E44B003180BC /* jiage-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33A818F4E44B003180BC /* jiage-01.png */; };
+		A81F33C318F4E44B003180BC /* jiage2-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33A918F4E44B003180BC /* jiage2-01.png */; };
+		A81F33C418F4E44B003180BC /* jiage3-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33AA18F4E44B003180BC /* jiage3-01.png */; };
+		A81F33C518F4E44B003180BC /* jiage4-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33AB18F4E44B003180BC /* jiage4-01.png */; };
+		A81F33C618F4E44B003180BC /* weixin-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33AC18F4E44B003180BC /* weixin-01.png */; };
+		A81F33C718F4E44B003180BC /* small-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33AE18F4E44B003180BC /* small-01.png */; };
+		A81F33C818F4E44B003180BC /* small-02.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33AF18F4E44B003180BC /* small-02.png */; };
+		A81F33C918F4E44B003180BC /* small-03.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33B018F4E44B003180BC /* small-03.png */; };
+		A81F33CA18F4E44B003180BC /* small-04.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33B118F4E44B003180BC /* small-04.png */; };
+		A81F33CB18F4E44B003180BC /* small-05.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33B218F4E44B003180BC /* small-05.png */; };
+		A81F33CC18F4E44B003180BC /* small-06.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33B318F4E44B003180BC /* small-06.png */; };
+		A81F33CD18F4E44B003180BC /* small-07.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33B418F4E44B003180BC /* small-07.png */; };
+		A81F33CE18F4E44B003180BC /* small-08.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33B518F4E44B003180BC /* small-08.png */; };
+		A81F33CF18F4E44B003180BC /* small-09.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33B618F4E44B003180BC /* small-09.png */; };
+		A81F33D018F4E44B003180BC /* small-10.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33B718F4E44B003180BC /* small-10.png */; };
+		A81F33D118F4E44B003180BC /* small-11.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33B818F4E44B003180BC /* small-11.png */; };
+		A81F33D218F4E44B003180BC /* ad-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33BA18F4E44B003180BC /* ad-01.png */; };
+		A81F33D318F4E44B003180BC /* ad-02.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33BB18F4E44B003180BC /* ad-02.png */; };
+		A81F33D418F4E44B003180BC /* ad-03.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33BC18F4E44B003180BC /* ad-03.png */; };
+		A81F33D518F4E44B003180BC /* shouye-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A81F33BE18F4E44B003180BC /* shouye-01.png */; };
+		A81F33D718F4E452003180BC /* 5896211_175813958000_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81F33D618F4E452003180BC /* 5896211_175813958000_2.jpg */; };
+		A81F33DA18F4E478003180BC /* firstVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81F33D918F4E478003180BC /* firstVCViewController.m */; };
+		A81F33DD18F4F511003180BC /* TypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81F33DC18F4F511003180BC /* TypeViewController.m */; };
+		A81F33E018F4F5BB003180BC /* bigImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81F33DF18F4F5BB003180BC /* bigImageViewController.m */; };
+		A896BCEC18F3935A000DA66D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A896BCEB18F3935A000DA66D /* Foundation.framework */; };
+		A896BCEE18F3935A000DA66D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A896BCED18F3935A000DA66D /* CoreGraphics.framework */; };
+		A896BCF018F3935A000DA66D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A896BCEF18F3935A000DA66D /* UIKit.framework */; };
+		A896BCF618F3935A000DA66D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A896BCF418F3935A000DA66D /* InfoPlist.strings */; };
+		A896BCF818F3935A000DA66D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A896BCF718F3935A000DA66D /* main.m */; };
+		A896BCFC18F3935A000DA66D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A896BCFB18F3935A000DA66D /* AppDelegate.m */; };
+		A896BCFF18F3935A000DA66D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A896BCFD18F3935A000DA66D /* Main.storyboard */; };
+		A896BD0218F3935A000DA66D /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A896BD0118F3935A000DA66D /* IndexViewController.m */; };
+		A896BD0418F3935A000DA66D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A896BD0318F3935A000DA66D /* Images.xcassets */; };
+		A896BD0B18F3935A000DA66D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A896BD0A18F3935A000DA66D /* XCTest.framework */; };
+		A896BD0C18F3935A000DA66D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A896BCEB18F3935A000DA66D /* Foundation.framework */; };
+		A896BD0D18F3935A000DA66D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A896BCEF18F3935A000DA66D /* UIKit.framework */; };
+		A896BD1518F3935A000DA66D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A896BD1318F3935A000DA66D /* InfoPlist.strings */; };
+		A896BD1718F3935A000DA66D /* BEAUTY_SALON___beauty_salonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A896BD1618F3935A000DA66D /* BEAUTY_SALON___beauty_salonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A896BD0E18F3935A000DA66D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A896BCE018F3935A000DA66D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A896BCE718F3935A000DA66D;
+			remoteInfo = "BEAUTY SALON   beauty-salon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A81F33A518F4E44B003180BC /* fuwu-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fuwu-01.png"; sourceTree = "<group>"; };
+		A81F33A618F4E44B003180BC /* huiyuanka1-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "huiyuanka1-01.png"; sourceTree = "<group>"; };
+		A81F33A718F4E44B003180BC /* huiyuanka2-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "huiyuanka2-01.png"; sourceTree = "<group>"; };
+		A81F33A818F4E44B003180BC /* jiage-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiage-01.png"; sourceTree = "<group>"; };
+		A81F33A918F4E44B003180BC /* jiage2-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiage2-01.png"; sourceTree = "<group>"; };
+		A81F33AA18F4E44B003180BC /* jiage3-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiage3-01.png"; sourceTree = "<group>"; };
+		A81F33AB18F4E44B003180BC /* jiage4-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiage4-01.png"; sourceTree = "<group>"; };
+		A81F33AC18F4E44B003180BC /* weixin-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin-01.png"; sourceTree = "<group>"; };
+		A81F33AE18F4E44B003180BC /* small-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-01.png"; sourceTree = "<group>"; };
+		A81F33AF18F4E44B003180BC /* small-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-02.png"; sourceTree = "<group>"; };
+		A81F33B018F4E44B003180BC /* small-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-03.png"; sourceTree = "<group>"; };
+		A81F33B118F4E44B003180BC /* small-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-04.png"; sourceTree = "<group>"; };
+		A81F33B218F4E44B003180BC /* small-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-05.png"; sourceTree = "<group>"; };
+		A81F33B318F4E44B003180BC /* small-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-06.png"; sourceTree = "<group>"; };
+		A81F33B418F4E44B003180BC /* small-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-07.png"; sourceTree = "<group>"; };
+		A81F33B518F4E44B003180BC /* small-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-08.png"; sourceTree = "<group>"; };
+		A81F33B618F4E44B003180BC /* small-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-09.png"; sourceTree = "<group>"; };
+		A81F33B718F4E44B003180BC /* small-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-10.png"; sourceTree = "<group>"; };
+		A81F33B818F4E44B003180BC /* small-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-11.png"; sourceTree = "<group>"; };
+		A81F33BA18F4E44B003180BC /* ad-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad-01.png"; sourceTree = "<group>"; };
+		A81F33BB18F4E44B003180BC /* ad-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad-02.png"; sourceTree = "<group>"; };
+		A81F33BC18F4E44B003180BC /* ad-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad-03.png"; sourceTree = "<group>"; };
+		A81F33BE18F4E44B003180BC /* shouye-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shouye-01.png"; sourceTree = "<group>"; };
+		A81F33D618F4E452003180BC /* 5896211_175813958000_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5896211_175813958000_2.jpg; sourceTree = "<group>"; };
+		A81F33D818F4E478003180BC /* firstVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = firstVCViewController.h; path = ../firstVCViewController.h; sourceTree = "<group>"; };
+		A81F33D918F4E478003180BC /* firstVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = firstVCViewController.m; path = ../firstVCViewController.m; sourceTree = "<group>"; };
+		A81F33DB18F4F511003180BC /* TypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeViewController.h; sourceTree = "<group>"; };
+		A81F33DC18F4F511003180BC /* TypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeViewController.m; sourceTree = "<group>"; };
+		A81F33DE18F4F5BB003180BC /* bigImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bigImageViewController.h; sourceTree = "<group>"; };
+		A81F33DF18F4F5BB003180BC /* bigImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bigImageViewController.m; sourceTree = "<group>"; };
+		A896BCE818F3935A000DA66D /* BEAUTY SALON   beauty-salon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BEAUTY SALON   beauty-salon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A896BCEB18F3935A000DA66D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A896BCED18F3935A000DA66D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A896BCEF18F3935A000DA66D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A896BCF318F3935A000DA66D /* BEAUTY SALON   beauty-salon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BEAUTY SALON   beauty-salon-Info.plist"; sourceTree = "<group>"; };
+		A896BCF518F3935A000DA66D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A896BCF718F3935A000DA66D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A896BCF918F3935A000DA66D /* BEAUTY SALON   beauty-salon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BEAUTY SALON   beauty-salon-Prefix.pch"; sourceTree = "<group>"; };
+		A896BCFA18F3935A000DA66D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A896BCFB18F3935A000DA66D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A896BCFE18F3935A000DA66D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A896BD0018F3935A000DA66D /* IndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		A896BD0118F3935A000DA66D /* IndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		A896BD0318F3935A000DA66D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A896BD0918F3935A000DA66D /* BEAUTY SALON   beauty-salonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BEAUTY SALON   beauty-salonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A896BD0A18F3935A000DA66D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A896BD1218F3935A000DA66D /* BEAUTY SALON   beauty-salonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BEAUTY SALON   beauty-salonTests-Info.plist"; sourceTree = "<group>"; };
+		A896BD1418F3935A000DA66D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A896BD1618F3935A000DA66D /* BEAUTY_SALON___beauty_salonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BEAUTY_SALON___beauty_salonTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A896BCE518F3935A000DA66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A896BCEE18F3935A000DA66D /* CoreGraphics.framework in Frameworks */,
+				A896BCF018F3935A000DA66D /* UIKit.framework in Frameworks */,
+				A896BCEC18F3935A000DA66D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A896BD0618F3935A000DA66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A896BD0B18F3935A000DA66D /* XCTest.framework in Frameworks */,
+				A896BD0D18F3935A000DA66D /* UIKit.framework in Frameworks */,
+				A896BD0C18F3935A000DA66D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A81F33A318F4E44B003180BC /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				A81F33A418F4E44B003180BC /* 小图标点击进去多张图（1695，635） */,
+				A81F33AD18F4E44B003180BC /* 小图（495，495） */,
+				A81F33B918F4E44B003180BC /* 广告长图（1695，635） */,
+				A81F33BD18F4E44B003180BC /* 首页（1695，1216） */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		A81F33A418F4E44B003180BC /* 小图标点击进去多张图（1695，635） */ = {
+			isa = PBXGroup;
+			children = (
+				A81F33A518F4E44B003180BC /* fuwu-01.png */,
+				A81F33A618F4E44B003180BC /* huiyuanka1-01.png */,
+				A81F33A718F4E44B003180BC /* huiyuanka2-01.png */,
+				A81F33A818F4E44B003180BC /* jiage-01.png */,
+				A81F33A918F4E44B003180BC /* jiage2-01.png */,
+				A81F33AA18F4E44B003180BC /* jiage3-01.png */,
+				A81F33AB18F4E44B003180BC /* jiage4-01.png */,
+				A81F33AC18F4E44B003180BC /* weixin-01.png */,
+			);
+			path = "小图标点击进去多张图（1695，635）";
+			sourceTree = "<group>";
+		};
+		A81F33AD18F4E44B003180BC /* 小图（495，495） */ = {
+			isa = PBXGroup;
+			children = (
+				A81F33AE18F4E44B003180BC /* small-01.png */,
+				A81F33AF18F4E44B003180BC /* small-02.png */,
+				A81F33B018F4E44B003180BC /* small-03.png */,
+				A81F33B118F4E44B003180BC /* small-04.png */,
+				A81F33B218F4E44B003180BC /* small-05.png */,
+				A81F33B318F4E44B003180BC /* small-06.png */,
+				A81F33B418F4E44B003180BC /* small-07.png */,
+				A81F33B518F4E44B003180BC /* small-08.png */,
+				A81F33B618F4E44B003180BC /* small-09.png */,
+				A81F33B718F4E44B003180BC /* small-10.png */,
+				A81F33B818F4E44B003180BC /* small-11.png */,
+			);
+			path = "小图（495，495）";
+			sourceTree = "<group>";
+		};
+		A81F33B918F4E44B003180BC /* 广告长图（1695，635） */ = {
+			isa = PBXGroup;
+			children = (
+				A81F33BA18F4E44B003180BC /* ad-01.png */,
+				A81F33BB18F4E44B003180BC /* ad-02.png */,
+				A81F33BC18F4E44B003180BC /* ad-03.png */,
+			);
+			path = "广告长图（1695，635）";
+			sourceTree = "<group>";
+		};
+		A81F33BD18F4E44B003180BC /* 首页（1695，1216） */ = {
+			isa = PBXGroup;
+			children = (
+				A81F33BE18F4E44B003180BC /* shouye-01.png */,
+			);
+			path = "首页（1695，1216）";
+			sourceTree = "<group>";
+		};
+		A896BCDF18F3935A000DA66D = {
+			isa = PBXGroup;
+			children = (
+				A896BCF118F3935A000DA66D /* BEAUTY SALON   beauty-salon */,
+				A896BD1018F3935A000DA66D /* BEAUTY SALON   beauty-salonTests */,
+				A896BCEA18F3935A000DA66D /* Frameworks */,
+				A896BCE918F3935A000DA66D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A896BCE918F3935A000DA66D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A896BCE818F3935A000DA66D /* BEAUTY SALON   beauty-salon.app */,
+				A896BD0918F3935A000DA66D /* BEAUTY SALON   beauty-salonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A896BCEA18F3935A000DA66D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A896BCEB18F3935A000DA66D /* Foundation.framework */,
+				A896BCED18F3935A000DA66D /* CoreGraphics.framework */,
+				A896BCEF18F3935A000DA66D /* UIKit.framework */,
+				A896BD0A18F3935A000DA66D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A896BCF118F3935A000DA66D /* BEAUTY SALON   beauty-salon */ = {
+			isa = PBXGroup;
+			children = (
+				A81F33D618F4E452003180BC /* 5896211_175813958000_2.jpg */,
+				A81F33A318F4E44B003180BC /* 图片 */,
+				A896BCFA18F3935A000DA66D /* AppDelegate.h */,
+				A896BCFB18F3935A000DA66D /* AppDelegate.m */,
+				A896BCFD18F3935A000DA66D /* Main.storyboard */,
+				A896BD0018F3935A000DA66D /* IndexViewController.h */,
+				A896BD0118F3935A000DA66D /* IndexViewController.m */,
+				A81F33D818F4E478003180BC /* firstVCViewController.h */,
+				A81F33D918F4E478003180BC /* firstVCViewController.m */,
+				A81F33DB18F4F511003180BC /* TypeViewController.h */,
+				A81F33DC18F4F511003180BC /* TypeViewController.m */,
+				A81F33DE18F4F5BB003180BC /* bigImageViewController.h */,
+				A81F33DF18F4F5BB003180BC /* bigImageViewController.m */,
+				A896BD0318F3935A000DA66D /* Images.xcassets */,
+				A896BCF218F3935A000DA66D /* Supporting Files */,
+			);
+			path = "BEAUTY SALON   beauty-salon";
+			sourceTree = "<group>";
+		};
+		A896BCF218F3935A000DA66D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A896BCF318F3935A000DA66D /* BEAUTY SALON   beauty-salon-Info.plist */,
+				A896BCF418F3935A000DA66D /* InfoPlist.strings */,
+				A896BCF718F3935A000DA66D /* main.m */,
+				A896BCF918F3935A000DA66D /* BEAUTY SALON   beauty-salon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A896BD1018F3935A000DA66D /* BEAUTY SALON   beauty-salonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A896BD1618F3935A000DA66D /* BEAUTY_SALON___beauty_salonTests.m */,
+				A896BD1118F3935A000DA66D /* Supporting Files */,
+			);
+			path = "BEAUTY SALON   beauty-salonTests";
+			sourceTree = "<group>";
+		};
+		A896BD1118F3935A000DA66D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A896BD1218F3935A000DA66D /* BEAUTY SALON   beauty-salonTests-Info.plist */,
+				A896BD1318F3935A000DA66D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A896BCE718F3935A000DA66D /* BEAUTY SALON   beauty-salon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A896BD1A18F3935A000DA66D /* Build configuration list for PBXNativeTarget "BEAUTY SALON   beauty-salon" */;
+			buildPhases = (
+				A896BCE418F3935A000DA66D /* Sources */,
+				A896BCE518F3935A000DA66D /* Frameworks */,
+				A896BCE618F3935A000DA66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BEAUTY SALON   beauty-salon";
+			productName = "BEAUTY SALON   beauty-salon";
+			productReference = A896BCE818F3935A000DA66D /* BEAUTY SALON   beauty-salon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A896BD0818F3935A000DA66D /* BEAUTY SALON   beauty-salonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A896BD1D18F3935A000DA66D /* Build configuration list for PBXNativeTarget "BEAUTY SALON   beauty-salonTests" */;
+			buildPhases = (
+				A896BD0518F3935A000DA66D /* Sources */,
+				A896BD0618F3935A000DA66D /* Frameworks */,
+				A896BD0718F3935A000DA66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A896BD0F18F3935A000DA66D /* PBXTargetDependency */,
+			);
+			name = "BEAUTY SALON   beauty-salonTests";
+			productName = "BEAUTY SALON   beauty-salonTests";
+			productReference = A896BD0918F3935A000DA66D /* BEAUTY SALON   beauty-salonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A896BCE018F3935A000DA66D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zc;
+				TargetAttributes = {
+					A896BD0818F3935A000DA66D = {
+						TestTargetID = A896BCE718F3935A000DA66D;
+					};
+				};
+			};
+			buildConfigurationList = A896BCE318F3935A000DA66D /* Build configuration list for PBXProject "BEAUTY SALON   beauty-salon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A896BCDF18F3935A000DA66D;
+			productRefGroup = A896BCE918F3935A000DA66D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A896BCE718F3935A000DA66D /* BEAUTY SALON   beauty-salon */,
+				A896BD0818F3935A000DA66D /* BEAUTY SALON   beauty-salonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A896BCE618F3935A000DA66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81F33D418F4E44B003180BC /* ad-03.png in Resources */,
+				A81F33CD18F4E44B003180BC /* small-07.png in Resources */,
+				A81F33C318F4E44B003180BC /* jiage2-01.png in Resources */,
+				A896BD0418F3935A000DA66D /* Images.xcassets in Resources */,
+				A81F33D018F4E44B003180BC /* small-10.png in Resources */,
+				A81F33C218F4E44B003180BC /* jiage-01.png in Resources */,
+				A81F33C618F4E44B003180BC /* weixin-01.png in Resources */,
+				A81F33C918F4E44B003180BC /* small-03.png in Resources */,
+				A81F33CF18F4E44B003180BC /* small-09.png in Resources */,
+				A81F33D318F4E44B003180BC /* ad-02.png in Resources */,
+				A896BCF618F3935A000DA66D /* InfoPlist.strings in Resources */,
+				A81F33D718F4E452003180BC /* 5896211_175813958000_2.jpg in Resources */,
+				A81F33CA18F4E44B003180BC /* small-04.png in Resources */,
+				A81F33C518F4E44B003180BC /* jiage4-01.png in Resources */,
+				A81F33CC18F4E44B003180BC /* small-06.png in Resources */,
+				A81F33C718F4E44B003180BC /* small-01.png in Resources */,
+				A81F33C018F4E44B003180BC /* huiyuanka1-01.png in Resources */,
+				A81F33CB18F4E44B003180BC /* small-05.png in Resources */,
+				A81F33C118F4E44B003180BC /* huiyuanka2-01.png in Resources */,
+				A81F33CE18F4E44B003180BC /* small-08.png in Resources */,
+				A81F33D518F4E44B003180BC /* shouye-01.png in Resources */,
+				A896BCFF18F3935A000DA66D /* Main.storyboard in Resources */,
+				A81F33BF18F4E44B003180BC /* fuwu-01.png in Resources */,
+				A81F33D118F4E44B003180BC /* small-11.png in Resources */,
+				A81F33C818F4E44B003180BC /* small-02.png in Resources */,
+				A81F33D218F4E44B003180BC /* ad-01.png in Resources */,
+				A81F33C418F4E44B003180BC /* jiage3-01.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A896BD0718F3935A000DA66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A896BD1518F3935A000DA66D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A896BCE418F3935A000DA66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81F33DD18F4F511003180BC /* TypeViewController.m in Sources */,
+				A896BD0218F3935A000DA66D /* IndexViewController.m in Sources */,
+				A896BCFC18F3935A000DA66D /* AppDelegate.m in Sources */,
+				A81F33DA18F4E478003180BC /* firstVCViewController.m in Sources */,
+				A896BCF818F3935A000DA66D /* main.m in Sources */,
+				A81F33E018F4F5BB003180BC /* bigImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A896BD0518F3935A000DA66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A896BD1718F3935A000DA66D /* BEAUTY_SALON___beauty_salonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A896BD0F18F3935A000DA66D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A896BCE718F3935A000DA66D /* BEAUTY SALON   beauty-salon */;
+			targetProxy = A896BD0E18F3935A000DA66D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A896BCF418F3935A000DA66D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A896BCF518F3935A000DA66D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A896BCFD18F3935A000DA66D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A896BCFE18F3935A000DA66D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A896BD1318F3935A000DA66D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A896BD1418F3935A000DA66D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A896BD1818F3935A000DA66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A896BD1918F3935A000DA66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A896BD1B18F3935A000DA66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BEAUTY SALON   beauty-salon/BEAUTY SALON   beauty-salon-Prefix.pch";
+				INFOPLIST_FILE = "BEAUTY SALON   beauty-salon/BEAUTY SALON   beauty-salon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A896BD1C18F3935A000DA66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BEAUTY SALON   beauty-salon/BEAUTY SALON   beauty-salon-Prefix.pch";
+				INFOPLIST_FILE = "BEAUTY SALON   beauty-salon/BEAUTY SALON   beauty-salon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A896BD1E18F3935A000DA66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BEAUTY SALON   beauty-salon.app/BEAUTY SALON   beauty-salon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BEAUTY SALON   beauty-salon/BEAUTY SALON   beauty-salon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BEAUTY SALON   beauty-salonTests/BEAUTY SALON   beauty-salonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A896BD1F18F3935A000DA66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BEAUTY SALON   beauty-salon.app/BEAUTY SALON   beauty-salon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BEAUTY SALON   beauty-salon/BEAUTY SALON   beauty-salon-Prefix.pch";
+				INFOPLIST_FILE = "BEAUTY SALON   beauty-salonTests/BEAUTY SALON   beauty-salonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A896BCE318F3935A000DA66D /* Build configuration list for PBXProject "BEAUTY SALON   beauty-salon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A896BD1818F3935A000DA66D /* Debug */,
+				A896BD1918F3935A000DA66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A896BD1A18F3935A000DA66D /* Build configuration list for PBXNativeTarget "BEAUTY SALON   beauty-salon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A896BD1B18F3935A000DA66D /* Debug */,
+				A896BD1C18F3935A000DA66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A896BD1D18F3935A000DA66D /* Build configuration list for PBXNativeTarget "BEAUTY SALON   beauty-salonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A896BD1E18F3935A000DA66D /* Debug */,
+				A896BD1F18F3935A000DA66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A896BCE018F3935A000DA66D /* Project object */;
+}
